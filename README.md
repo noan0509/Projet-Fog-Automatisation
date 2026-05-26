@@ -1,10 +1,9 @@
 # 🚀 Interface d'Initialisation de Poste - L'Arche Oise
 
-Ce projet a été développé dans le cadre de mon stage au sein de l'association **L'Arche Oise**. Il permet d'automatiser et de standardiser la post-configuration des postes de travail (PC Fixes et Portables).
+Ce projet a été développé dans le cadre de mon alternance au sein de l'association **L'Arche Oise**. Il permet d'automatiser et de standardiser la post-configuration des postes de travail (PC Fixes et Portables).
 
 ## 📝 Description du projet
-L'outil consiste en une interface web locale (PHP/Apache) qui permet à un technicien de saisir les paramètres réseau et de choisir un profil de poste. En fonction du choix, l'interface appelle dynamiquement des scripts **PowerShell** pour configurer la machine.
-
+L'outil consiste en une interface web locale (PHP/Apache) qui permet à un technicien de saisir les paramètres réseau et de choisir un profil de poste. 
 ## ✨ Fonctionnalités
 - **Renommage automatique** du poste (Nom NetBIOS).
 - **Configuration réseau intelligente** :
@@ -16,10 +15,9 @@ L'outil consiste en une interface web locale (PHP/Apache) qui permet à un techn
 - **Installation automatisée** des logiciels via le gestionnaire **Winget**.
 
 ## 🛠️ Technologies utilisées
-* **Frontend :** HTML5 / CSS3 (Design moderne et responsive).
+* **Frontend :** HTML / CSS (Design moderne et responsive).
 * **Backend :** PHP (Aiguillage et exécution système).
 * **Scripting :** PowerShell (Configuration Windows).
-* **Serveur :** XAMPP (Apache).
 * **Gestion de version :** Git & GitHub.
 
 ## 📁 Structure du dépôt
